@@ -7,15 +7,12 @@ body{
     background:#e7ecf1;
 }
 @media only screen and (max-width:750px){
-    body{
-        overflow-x: hidden;
-    }
+
     .container{
         display: flex;
         flex-direction: column;
     }
     .greet-text{
-        /* border: 10px solid blue; */
         font-size: 1.45em;
         position: relative;
         left: 55px;
@@ -38,7 +35,6 @@ body{
 }
 .greet-text{
     margin: 185px 150px auto 25px;
-    /* border: 10px solid blue; */
     font-size: 1.45em;
 }
 .form{
@@ -97,13 +93,14 @@ a{
     font-weight: bold;
 }
 footer{
-    height: 25vh;
+    height: 28vh;
+    width: 100vw;
     background:#ffffff;
 }
 .foot-container{
-    width: 65vw;
-    margin: 185px auto 55px auto;
-    padding-top: 35px;
+    width: 65%;
+    height: 80%;
+    margin: 255px auto 0px auto;
 }
 .lang-select{
     list-style-type: none;
@@ -132,9 +129,9 @@ img{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 .copy-right{
    font-size: 0.7em; 
-   margin-top: 20px;
+   margin-top: 5px;
 }
